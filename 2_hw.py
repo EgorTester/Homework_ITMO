@@ -16,14 +16,13 @@ task_1()
 def task_2():
  a = [1, 2, 3, 5, 8, 13, 21]
  first_three = a[:3]
+
  print(first_three)
 
- return first_three
-result = task_2()
+task_2()
 
 
-def task_3\
-(number: int):
+def task_3(number: int):
  return number ** 2
 
-print(task_3(8))
+print(task_3(7))
