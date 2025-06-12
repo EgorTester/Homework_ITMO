@@ -31,8 +31,8 @@ try:
     print("Элементы найдены")
 
 except NoSuchElementException as e:
-    print(f"Элемент не найден: {e}")
+    print(f"Элемент не найдены: {e}")
 except Exception as e:
-    print(f"Произошла ошибка: {e}")
+    print(f"Ошибка: {e}")
 
 driver.quit()
